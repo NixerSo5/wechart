@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/mui.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/slideCss.css">
+	</head>
+	<body>
+		<div class="mui-content indexBg">
+			<!-- 首页 -->
+			<div class="indexPage" style="display:;">
+				<div class="indexImg">
+					<img src="img/index_title02.png" class="img02 marTop20">
+				</div>
+				<div class="voteInter">
+					<div class="font9 txtShow">活动时间：2018年9月20日-9月30日</div>
+					<div class="font01 timeCon">投票倒计时：**天***小时**分</div> 
+				</div>
+				<ul class="voteMenu">
+					<li class="conEntrance">
+						<div class="fl imgIcon"><img src="img/communityIcon.png" class="wid100"></div>
+						<div class="fl menuTxt"><button type="button" class="mui-btn mui-btn-danger">社区组投票入口</button></div>
+					</li>
+					<li class="schoolEntrance">
+						<div class="fl imgIcon"><img src="img/collegeIcon.png" class="wid110"></div>
+						<div class="fl menuTxt"><button type="button" class="mui-btn mui-btn-danger">高校组投票入口</button></div>
+					</li>
+				</ul>
+			</div>
+			<!-- 社区\高校组投票 -->
+			<div class="votePage" style="display:none;">
+				<div class="indexImg">
+					<img src="img/schoolTitle.png" class="img02 voteTitleImg">
+				</div>
+				<div class="voteInter">
+					<div class="font9 txtShow">活动时间：2018年9月20日-9月30日</br>（以下排名不分先后）</div>
+					<div class="font01 timeCon">投票倒计时：**天***小时**分</div> 
+				</div>
+				<div class="personNum">
+					<div class="perMain">
+						<ul class="malCor numUl">
+							<li class="fl">
+								<div class="font9">报名人数</div>
+								<div>888888</div>
+							</li>
+							<li class="fl">
+								<div class="font9">累计投票</div>
+								<div>888888</div>
+							</li>
+						</ul>
+						<div class="mui-input-row mui-search">
+							<input type="search" class="mui-input-clear font9" placeholder="请输入编号或名字" />
+						</div>
+					</div>
+					<!--
+                    	<ul class="memList">
+						<li class="fl">
+							<div class="numDiv">01号</div>
+							<img src="img/01.jpeg" class="memImg">
+							<div class="font9">李小龙</div>
+							<div class="font9">80000票</div>
+							<div>
+								<button type="button" class="mui-btn btnshadow memBtn">
+									投票
+								</button>
+							</div>
+						</li>
+						<li class="fl">
+							<div class="numDiv">01号</div>
+							<img src="img/01.jpeg" class="memImg">
+							<div class="font9">李小龙</div>
+							<div class="font9">80000票</div>
+							<div>
+								<button type="button" class="mui-btn btnshadow memBtn">
+									投票
+								</button>
+							</div>
+						</li>
+					</ul>
+                    -->
+					
+					<!--滑动区域-->
+					<div class="p-ct transformNode-2d">
+				        <div class="translate-back">
+				            <div class="m-page m-fengye">
+				                <div class="page-con lazy-finish">
+				                		<ul class="memList">
+										<li class="fl">
+											<div class="numDiv">01号</div>
+											<img src="img/01.jpeg" class="memImg">
+											<div class="font9">李小龙01</div>
+											<div class="font9">80000票</div>
+											<div>
+												<button type="button" class="mui-btn btnshadow memBtn">
+													投票
+												</button>
+											</div>
+										</li>
+										<li class="fl">
+											<div class="numDiv">02号</div>
+											<img src="img/01.jpeg" class="memImg">
+											<div class="font9">李小龙02</div>
+											<div class="font9">80000票</div>
+											<div>
+												<button type="button" class="mui-btn btnshadow memBtn">
+													投票
+												</button>
+											</div>
+										</li>
+									</ul>
+				                </div>
+				            </div>
+				            <div class="m-page m-bigTxt f-hide">
+				                <div class="page-con j-txtWrap lazy-finish">
+				                		<ul class="memList">
+										<li class="fl">
+											<div class="numDiv">03号</div>
+											<img src="img/01.jpeg" class="memImg">
+											<div class="font9">李小龙03</div>
+											<div class="font9">80000票</div>
+											<div>
+												<button type="button" class="mui-btn btnshadow memBtn">
+													投票
+												</button>
+											</div>
+										</li>
+										<li class="fl">
+											<div class="numDiv">04号</div>
+											<img src="img/01.jpeg" class="memImg">
+											<div class="font9">李小龙04</div>
+											<div class="font9">80000票</div>
+											<div>
+												<button type="button" class="mui-btn btnshadow memBtn">
+													投票
+												</button>
+											</div>
+										</li>
+									</ul>
+				                </div>
+				            </div>
+				            <div class="m-page m-bigTxt f-hide">
+				                <div class="page-con j-txtWrap lazy-finish">
+				                		<ul class="memList">
+										<li class="fl">
+											<div class="numDiv">05号</div>
+											<img src="img/01.jpeg" class="memImg">
+											<div class="font9">李小龙05</div>
+											<div class="font9">80000票</div>
+											<div>
+												<button type="button" class="mui-btn btnshadow memBtn">
+													投票
+												</button>
+											</div>
+										</li>
+										<li class="fl">
+											<div class="numDiv">06号</div>
+											<img src="img/01.jpeg" class="memImg">
+											<div class="font9">李小龙06</div>
+											<div class="font9">80000票</div>
+											<div>
+												<button type="button" class="mui-btn btnshadow memBtn">
+													投票
+												</button>
+											</div>
+										</li>
+									</ul>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+    
+    
+    
+				</div>
+			</div>
+			<!-- 排行榜 -->
+			<div class="rankList" style="display:none;">
+				<div class="indexImg">
+					<img src="img/rankTitle.png" class="img02" />
+				</div>
+				<div class="voteInter">
+					<div class="font01 timeCon">投票倒计时：**天***小时**分</div> 
+				</div>
+				<div class="rankMain">
+					<div class="fl part01">
+						<div><img src="img/rank01.png" class="wid80"></div>
+						<ul class="nameUl">
+							<li class="infoNum fl mui-ellipsis">排名</li>
+							<li class="infoName fl mui-ellipsis">名字</li>
+							<li class="infoAll fl mui-ellipsis">票数</li>
+						</ul>
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<ul class="conUl">
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="fl part01">
+						<div><img src="img/rank02.png" class="wid80"></div>
+						<ul class="nameUl">
+							<li class="infoNum fl mui-ellipsis">排名</li>
+							<li class="infoName fl mui-ellipsis">名字</li>
+							<li class="infoAll fl mui-ellipsis">票数</li>
+						</ul>
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<ul class="conUl">
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li >
+										<div class="infoNum fl mui-ellipsis">01</div>
+										<div class="infoName fl mui-ellipsis">张三</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">02</div>
+										<div class="infoName fl mui-ellipsis">李四</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+									<li>
+										<div class="infoNum fl mui-ellipsis">3000</div>
+										<div class="infoName fl mui-ellipsis">小张</div>
+										<div class="infoAll fl mui-ellipsis">20000</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="mui-content mainBg" style="display:none;">
+			<!-- 活动说明 -->
+			<div class="activePage"  style="display:none;">
+				<div class="indexImg">
+					<img src="img/index_title01.png" class="img01 marTop20">
+					<img src="img/index_title02.png" class="img02 marTop20">
+				</div>
+				<div class="activeCon">
+					<div class="activeTitle"><div class="font1 activeName">活动说明</div></div>
+					<div class="activeInfo">
+						<p>2018”食品药品安全科普宣讲江海行“系列活动自今年2月正式启动以来，深入街道社区开展广泛的宣讲活动，受到了人民群众广泛关注和热情参与，涌现出一批“讲奉献、有作为”的宣讲员。</p>
+						<p>为充分展现了食品药品安全科普宣讲员的风采，进一步推进“食品药品安全科普宣传江海行”活动的深入开展，现利用新媒体平台开展“十佳食品药品安全科普宣讲员（社区组）”、“十佳食品药品安全科普宣讲员（高校组）”（简称：食品药品安全科普宣讲员“双十佳”）评选活动。</p>
+					</div>
+					<button type="button" class="mui-btn mui-btn-danger">返回主页</button>
+				</div>
+			</div>
+			<!-- 抽奖说明 -->
+			<div class="activeVote">
+				<div class="indexImg">
+					<img src="img/index_title01.png" class="img01 marTop20">
+					<img src="img/index_title02.png" class="img02 marTop40">
+				</div>
+				<div class="activeCon"  style="display:;">
+					<div class="activeTitle"><div class="font1 activeName">抽奖说明</div></div>
+					<div class="activeInfo pad40">
+						<p>活动规则：关注“南通食品药品监管”微信公众号，进入投票页面，选择不超过10名宣讲员进行投票。每人每天只可投票一次。参与投票人员均可参加微信红包抽奖。</p>
+					</div>
+					<button type="button" class="mui-btn mui-btn-danger">返回主页</button>
+				</div>
+			</div>
+		</div>
+		<!-- 抽红包 -->
+		<div class="mui-content redBg" style="display:none;">
+			<div class="redMain">
+				<button class="redBtn"></button>
+				<img src="img/redTitle.png" class="img80"/>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active homePage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar01.png" class="bar01"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item paiPage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar02.png" class="bar02"></span>
+				<span class="mui-tab-label">排行榜</span>
+			</a>
+			<a class="mui-tab-item explainPage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar03.png" class="bar02"></span>
+				<span class="mui-tab-label">抽奖说明</span>
+			</a>
+			<a class="mui-tab-item redPage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar04.png" class="bar02"></span>
+				<span class="mui-tab-label">抽红包</span>
+			</a>
+		</nav>
+	</body>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript" src="js/page/offline.js"></script>
+    <script src="js/page/init.mix.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/page/coffee.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/page/99_main.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		mui.init();
+		//弹出框滚动
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+		});
+		//首页
+		mui(".mui-bar-tab").on('tap','.homePage',function(){
+		  //背景图
+		  $('.indexBg').css('display','block');
+		  $('.mainBg').css('display','none');
+		  $('.redBg').css('display','none');
+		  //显示页面
+		  $('.indexPage').css('display','block');
+		  $('.votePage').css('display','none');
+		  $('.rankList').css('display','none');
+		}) 
+		//排行榜
+		mui(".mui-bar-tab").on('tap','.paiPage',function(){
+		  //背景图
+		  $('.indexBg').css('display','block');
+		  $('.mainBg').css('display','none');
+		  $('.redBg').css('display','none');
+		  //显示页面
+		  $('.indexPage').css('display','none');
+		  $('.votePage').css('display','none');
+		  $('.rankList').css('display','block');
+		})
+		//抽奖说明
+		mui(".mui-bar-tab").on('tap','.explainPage',function(){
+		  //背景图
+		  $('.indexBg').css('display','none');
+		  $('.mainBg').css('display','block');
+		  $('.redBg').css('display','none');
+		  //显示页面
+		  $('.activeVote').css('display','block');
+		  $('.activePage').css('display','none');
+		})
+		//抽红包
+		mui(".mui-bar-tab").on('tap','.redPage',function(){
+		  //背景图
+		  $('.indexBg').css('display','none');
+		  $('.mainBg').css('display','none');
+		  $('.redBg').css('display','block');
+		})
+		//社区组投票页面
+		mui(".voteMenu").on('tap','.conEntrance',function(){
+		  //背景图
+		  $('.indexBg').css('display','block');
+		  $('.mainBg').css('display','none');
+		  $('.redBg').css('display','none');
+		  //显示页面
+		  $('.voteTitleImg').attr('src','img/communTitle.png');
+		  $('.indexPage').css('display','none');
+		  $('.votePage').css('display','block');
+		  $('.rankList').css('display','none');
+		})
+		//高校组投票页面
+		mui(".voteMenu").on('tap','.schoolEntrance',function(){
+		  //背景图
+		  $('.indexBg').css('display','block');
+		  $('.mainBg').css('display','none');
+		  $('.redBg').css('display','none');
+		  //显示页面
+		  $('.voteTitleImg').attr('src','img/schoolTitle.png');
+		  $('.indexPage').css('display','none');
+		  $('.votePage').css('display','block');
+		  $('.rankList').css('display','none');
+		})
+		
+	</script>
+
+</html>

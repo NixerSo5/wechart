@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		
+	</head>
+
+	<body>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active homePage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar01.png" class="bar01"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item paiPage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar02.png" class="bar02"></span>
+				<span class="mui-tab-label">排行榜</span>
+			</a>
+			<a class="mui-tab-item explainPage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar03.png" class="bar02"></span>
+				<span class="mui-tab-label">抽奖说明</span>
+			</a>
+			<a class="mui-tab-item redPage" href="javascript:void(0)">
+				<span class="mui-icon"><img src="img/bar04.png" class="bar02"></span>
+				<span class="mui-tab-label">抽红包</span>
+			</a>
+		</nav>
+		<div class="mui-content indexBg">
+			<div class="indexImg">
+				<img src="img/index_title01.png" class="img01">
+				<img src="img/index_title02.png" class="img02">
+			</div>
+			<!-- 首页 -->
+			<div class="indexCon">
+				<div class="font9 txtShow">活动时间：2018年9月20日-9月30日</div>
+				<button type="button" class="mui-btn mui-btn-danger actDescrip">
+					活动说明
+				</button>
+				<button type="button" class="mui-btn mui-btn-danger">
+					进入投票
+				</button>
+				<ul class="explainUl">
+					<li>
+						<div class="expName">主办单位：</div>
+						<div class="expInfo">南通市食品安全委员会</div>
+					</li>
+					<li>
+						<div class="expName">承办单位：</div>
+						<div class="expInfo mui-ellipsis">
+							南通市食品安全委员会办公室</br>
+							南通市食品药品监督管理局承办
+						</div>
+					</li>
+					<li>
+						<div class="expName">协办单位：</div>
+						<div class="expInfo mui-ellipsis">
+							崇川区人民政府</br>
+							港闸区人民政府</br>
+							南通市经济技术开发区管委会
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 活动说明 -->
+			<div class="activeCon"  style="display:none;">
+				<div class="activeTitle"><div class="font1 activeName">活动说明</div></div>
+				<div class="activeInfo">
+					<p>2018”食品药品安全科普宣讲江海行“系列活动自今年2月正式启动以来，深入街道社区开展广泛的宣讲活动，受到了人民群众广泛关注和热情参与，涌现出一批“讲奉献、有作为”的宣讲员。</p>
+					<p>为充分展现了食品药品安全科普宣讲员的风采，进一步推进“食品药品安全科普宣传江海行”活动的深入开展，现利用新媒体平台开展“十佳食品药品安全科普宣讲员（社区组）”、“十佳食品药品安全科普宣讲员（高校组）”（简称：食品药品安全科普宣讲员“双十佳”）评选活动。</p>
+				</div>
+				<button type="button" class="mui-btn mui-btn-danger homeId">返回主页</button>
+			</div>
+		</div>
+	</body>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript" charset="utf-8">
+		mui.init();
+		//活动说明
+		mui(".indexCon").on('tap','.actDescrip',function(){
+		  $('.activeCon').css('display','block');
+		  $('.indexCon').css('display','none');
+		 
+		})
+		//首页
+		mui(".activeCon").on('tap','.homeId',function(){
+		  $('.activeCon').css('display','none');
+		  $('.indexCon').css('display','block');
+		 
+		})
+	</script>
+
+</html>

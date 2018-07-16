@@ -1,0 +1,173 @@
+body{font-family:"Microsoft YaHei";font-size:0.8rem;color:#5c5d5f;}
+ul{list-style-type:none;}
+.font1{font-size:1.1rem;}
+.font01{font-size:1rem;}
+.font9{font-size:0.9rem;}
+.malCor{color:#e60e15;}
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both}
+.txtShow{
+    color:#e61a17;font-weight:bold;
+    -webkit-text-stroke:0px #fff;
+    text-shadow: 0px 5px 5px rgba(24,3,5,0.16);
+    text-align:center;
+    
+   
+}
+p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #313334;
+    text-indent:2em;
+}
+.mui-btn-danger, .mui-btn-negative, .mui-btn-red {
+    color: #fff;
+    border: 1px solid #e61a17;
+    background-color: #e61a17;
+    padding:3px 16px 4px 16px;
+    display:block;
+    margin:20px auto;
+    font-size:1.1rem;
+}
+.ui-page-login,
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.mui-content.mainBg{
+	background:none;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background:url(../img/indexBj.png) no-repeat;
+	background-size:100% 100%;
+	
+}
+.mui-content.indexBg{
+	background:none;
+	width: 100%;
+	min-height: 100%;
+	margin: 0px;
+	padding: 0px 0px 70px 0px;
+	background:url(../img/mainBj.png) no-repeat;
+	background-size:100% 100%;
+	
+}
+.mui-content.redBg{
+	background:none;
+	width: 100%;
+	min-height: 100%;
+	margin: 0px;
+	padding: 0px 0px 70px 0px;
+	background:url(../img/redBg.png) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.mui-bar {
+     background-color: #e61416;
+     border-top:7px solid #ffe600;
+     -webkit-box-shadow: 0 0 0px rgba(0,0,0,.85);
+     box-shadow: 0 0 0px rgba(0,0,0,.85);
+}
+.mui-bar-tab .mui-tab-item {
+    color:#fff;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+    color: #fff;
+}
+.mui-search .mui-placeholder .mui-icon {
+    font-size: 20px;
+    color: #fff;
+    font-weight:bold;
+}
+.mui-search .mui-placeholder {color:#fff;font-size:0.9rem;}
+.mui-search:before
+{color:#fff;}
+.btnshadow{
+  -webkit-box-shadow: 2px 2px 1px rgba(7,1,2,0.5);
+  -moz-box-shadow: 2px 2px 1px rgba(7,1,2,0.5);
+  box-shadow: 2px 2px 1px rgba(7,1,2,0.5);
+}
+.mui-bar-tab {z-index:999;}
+.mui-scroll-wrapper{height:200px;top:70px;padding-bottom:20px;}
+.bar01{width:20px;}
+.bar02{width:18px;}
+/*首页*/
+.indexCon{text-align:center;width:100%;}
+.indexImg{padding:10px 10px 0px 10px;}
+.indexImg .img01{width:70%;display:block;}
+.indexImg .img01.marTop20{margin-top:20px;}
+.indexImg .img02{width:100%;display:block;margin:50px 0px 0px 0px;}
+.indexImg .img02.marTop40{margin:40px 0px 30px 0px;}
+.indexImg .img02.marTop20{width:85%;margin:30px auto 0px auto;}
+.explainUl{margin:0;padding:0;width:100%;font-weight:bold;}
+.explainUl li{position:relative;overflow:hidden;padding-left:35%;margin-bottom:10px;}
+.explainUl li .expName{position:absolute;top:0;left:0px;width:35%;text-align:right;}
+.explainUl li .expInfo{text-align:left;}
+/*活动说明*/
+.activeCon{width:100%;position:relative;}
+.activeCon .activeTitle{position:absolute;top:-13px;left:0;text-align:center;width:100%;}
+.activeCon .activeName{background:#e61416;color:#fff;display:inline-block;padding:3px 15px 4px 15px;border-radius:4px;}
+.activeCon .activeInfo{margin:10px;border:2px solid #e61416;border-radius:5px;padding:20px 5px 10px 10px}
+.activeCon .activeInfo.pad40{padding:40px 7px 30px 10px;}
+/*投票界面*/
+.voteInter{width:85%;margin:0 auto;}
+.timeCon{background:#e61416;color:#fff;display:inline-block;padding:5px 10px 6px 10px;border-radius:5px;width:90%;text-align:center;margin-left:5%;margin-top:20px;}
+.voteMenu{margin:30px 0 0 0;padding:0;}
+.voteMenu li{overflow:hidden;}
+.voteMenu li:first-child{margin-bottom:20px;}
+.voteMenu li .imgIcon{width:50%;text-align:center;}
+.voteMenu li .imgIcon .wid100{width:100px}
+.voteMenu li .imgIcon .wid110{width:100px}
+.voteMenu li .menuTxt{width:50%;text-align:left;}
+.voteMenu li .mui-btn-danger {margin:30px 0px 0px 0px;font-size:0.9rem;padding:3px 13px 4px 13px;}
+/*社区投票*/
+.memList{margin:0;padding:10px 0px;text-align:center;overflow:hidden;}
+.memList li{width:50%;padding:10px 10% 5px 10%;}
+.memList li:nth-child(odd){padding-right:7%;}
+.memList li:nth-child(even){padding-left:7%;}
+.memList li .numDiv{background:#e60e15;color:#fff;}
+.memList li .memImg{width:100%;max-height:100px;margin-top:10px;}
+.memList li .memBtn{background:#fff;border:2px solid #e60e15;color:#e60e15;border-radius:50px;width:80%;padding:3px 12px;margin-top:5px;}
+.memList li .memBtn:enabled:active,
+.memList li .memBtn.mui-active:enabled
+{
+    color: #fff;
+    background-color: #e60e15;
+}
+.personNum{margin:20px 10px 10px 10px;border:2px solid #e61416;}
+.personNum .perMain{border-bottom:2px solid #e61416;}
+.personNum .perMain .numUl{margin:0;padding:10px 0px;text-align:center;overflow:hidden;}
+.personNum .perMain .numUl li{width:50%;}
+.perMain .mui-search{width:65%;margin:0 auto;}
+.perMain .mui-search input{background:#e60e15;color:#fff;}
+/*排行榜*/
+.rankList .indexImg .img02{width:85%;margin:30px auto 0 auto;}
+.rankMain{margin:10px;background:#fefefe;border:2px solid #e60a13;overflow:hidden;}
+.rankMain .part01{width:50%;height:265px;text-align:center;border-right:2px solid #e60a13;padding-top:10px;position: relative;}
+.rankMain .part01:nth-child(2){border-right:none ;}
+.rankMain .part01 .wid80{width:80px;}
+.rankMain .part01 .nameUl{background:#e60a13;color:#fff;padding:0;margin:0;overflow:hidden;}
+.rankMain .part01 .conUl{padding:0;margin:0;height:auto;}
+.rankMain .part01 .conUl.borRig{border-right: 2px solid #e60a13;}
+.rankMain .part01 .conUl li{width:100%;overflow: hidden;}
+.rankMain .part01 .conUl li .infoNum , .rankMain .part01 .nameUl li.infoNum{width:27%;}
+.rankMain .part01 .conUl li .infoName , .rankMain .part01 .nameUl li.infoName{width:35%;}
+.rankMain .part01 .conUl li .infoAll , .rankMain .part01 .nameUl li.infoAll{width:38%;}
+/*抢红包*/
+.redMain{position:absolute;width:100%;bottom:100px;left:0;text-align:center;}
+.redBtn{background:url(../img/redBtn.png) no-repeat;background-size:100% 100%;width:60%;height:45px;border:none;margin:0 auto;border-radius:20px;display: block;}
+.redBtn:enabled:active,
+.redBtn.mui-active:enabled
+{
+    color: #fff;
+    background-color:none;
+    border:none;
+}
+.redMain .img80{width:80%;}
